@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/masjid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/boshi"
+    tools:context="ru.cyberblogs.webview.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:text="@string/masjid1"
+                android:id="@+id/masmenu1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="220dp"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/masjid2"
+                android:id="@+id/masmenu2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="@string/masjid3"
+                android:id="@+id/masmenu3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="@string/masjid4"
+                android:id="@+id/masmenu4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="@string/masjid5"
+                android:id="@+id/masmenu5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

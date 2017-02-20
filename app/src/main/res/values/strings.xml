@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">As-salam</string>
+    <string name="bmenu1">مشاريع السلام الخيرية</string>
+    <string name="bmenu2">اتصل بنا</string>
+    <string name="bmenu3">تبرع أون لاين</string>
+    <string name="bmenu4">نبذه عن أعمالنا</string>
+    <string name="bmenu5">من نحن</string>
+
+    <string name="catmasjid">مساجد</string>
+
+    <string name="catmenu2">مراكز تحفيظ قرآن</string>
+    <string name="catmenu3">مراكز طبية </string>
+    <string name="catmenu4">مشاريع المياه</string>
+    <string name="catmenu5">بقره حلوب</string>
+    <string name="catmenu6">مخبز آلي</string>
+    <string name="catmenu7">بناء بيوت الأرامل</string>
+    <string name="catmenu8">سلل غذائية</string>
+    <string name="catmenu9">فحم التدفئة</string>
+    <string name="catmenu10">مكائن خياطة</string>
+    <string name="catmenu11">بقره حلوب كبيرة</string>
+    <string name="catmenu12">بقره حلوب كبيرة جدا</string>
+    <string name="catmenu13">الكفالات</string>
+    <string name="catmenu14">الإفطارات</string>
+    <string name="catmenu15">الأضاحي</string>
+    <string name="catmenu16">ترميم بيوت الأرامل</string>
+    <string name="catmenu17">مدافئ وبطانيات</string>
+    <string name="catmenu18">توزيع زكاة المال والصدقات و كسوة الأيتام</string>
+
+    <string name="masjid1">مسجد 100 متر مربع</string>
+    <string name="masjid2">مسجد 180 متر مربع</string>
+    <string name="masjid3">مسجد  248 متر مربع</string>
+    <string name="masjid4">مسجد 366 متر مربع</string>
+    <string name="masjid5">مسجد 480 متر مربع</string>
+
+    <string name="skoran1">مكون من فصلين</string>
+    <string name="skoran2">مكون من 3  فصول</string>
+    <string name="skoran3">مكون من 4  فصول</string>
+    <string name="skoran4">مكون من 5  فصول</string>
+    <string name="skoran5">مكون من 6  فصول</string>
+
+    <string name="allproject5">مركز  طبي  108 م2</string>
+    <string name="allproject6">مركز  طبي  220 م2</string>
+    <string name="allproject7">مركز  طبي  1002.6 م2</string>
+
+    <string name="allproject1">بئر سطحي</string>
+    <string name="allproject2">بئر إرتوازي</string>
+    <string name="allproject3">مشاريع المياه الكبرى</string>
+</resources>

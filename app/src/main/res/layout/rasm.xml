@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/rasm1"
+        android:src="@drawable/masjidonboshi"
+        android:layout_width="match_parent"
+        tools:ignore="ContentDescription"
+        android:scaleType="fitXY"
+        android:layout_height="200dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/masjidonboshibir"
+        android:id="@+id/rasm2"
+        tools:ignore="ContentDescription"
+        android:scaleType="fitXY"
+        android:layout_height="150dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/masjidonboshiikki"
+        android:id="@+id/rasm3"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

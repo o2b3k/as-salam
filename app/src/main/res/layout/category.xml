@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/boshi"
+    tools:context="ru.cyberblogs.as_salam.Category">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220dp"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:text="@string/catmasjid"
+                android:id="@+id/cmenu1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu2"
+                android:id="@+id/cmenu2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="@string/catmenu3"
+                android:id="@+id/cmenu3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="@string/catmenu4"
+                android:id="@+id/cmenu4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="@string/catmenu5"
+                android:id="@+id/cmenu5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+
+
+
+            <Button
+                android:text="@string/catmenu6"
+                android:id="@+id/cmenu6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu7"
+                android:id="@+id/cmenu7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu8"
+                android:id="@+id/cmenu8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu9"
+                android:id="@+id/cmenu9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="@string/catmenu10"
+                android:id="@+id/cmenu10"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu11"
+                android:id="@+id/cmenu11"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu12"
+                android:id="@+id/cmenu12"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu13"
+                android:id="@+id/cmenu13"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu14"
+                android:id="@+id/cmenu14"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu15"
+                android:id="@+id/cmenu15"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu16"
+                android:id="@+id/cmenu16"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu17"
+                android:id="@+id/cmenu17"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+            <Button
+                android:text="@string/catmenu18"
+                android:id="@+id/cmenu18"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
